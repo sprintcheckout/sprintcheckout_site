@@ -1,0 +1,573 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;
+}
+
+a,
+input,
+button,
+textarea { outline: none !important; }
+
+a {
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+.pad-left {
+	padding-left:0;
+}
+
+.pad-right {
+	padding-right:0;
+}
+
+.pad-top {
+	padding-top:0;
+}
+
+.pad-bottom {
+	padding-bottom:0;
+}
+
+.padding {
+	padding:0;
+}
+
+.wrapper {
+	padding-top: 40px;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+h1 {
+	font-size: 55px;
+	line-height: 55px;
+	margin: 0;
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px;
+	margin: 0;
+}
+h3 {
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+h5 {
+	font-size: 26px;
+	line-height: 26px;
+	margin: 0;
+}
+
+h6 {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	line-height: 18px;
+	margin: 0;
+}
+
+/*==================================================================*/
+/*========== Header Start ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== Header End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== New Class Add Start ==========*/
+/*==================================================================*/
+
+
+.payment .title {
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+.payment .title h1, .payment .title h2, .payment .title h3, .payment .title h4, .payment .title h5, .payment .title h6 {
+	font-size: 56px;
+	line-height: 68px;
+	color: #183B56;
+	text-align: center;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 36px;
+	text-align: center;
+	color: #5A7184;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+	font-size: 20px;
+	line-height: 27px;
+	width: 242px;
+	border-radius: 8px;
+	position: relative;
+	padding: 12px 24px;
+	border: 2px solid #1565D8;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn svg {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translate(0px, -50%);
+	-webkit-transform: translate(0px, -50%);
+	-moz-transform: translate(0px, -50%);
+	-ms-transform: translate(0px, -50%);
+	-o-transform: translate(0px, -50%);
+}
+
+.btn-primary {
+	background-color: #1565D8;
+	color: #ffffff;
+	margin-right: 34px;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active {
+	border-color: #1565D8;
+	background-color: #ffffff;
+	color: #1565D8;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus {
+	box-shadow: none;
+}
+
+.btn-primary svg path, .btn-primary:focus svg path, 
+.btn-primary:not(:disabled):not(.disabled):active svg path {
+	fill: #ffffff;
+}
+
+.btn-primary:hover svg path, .btn-primary:not(:disabled):not(.disabled):active svg path, .btn-primary:not(:disabled):not(.disabled).active svg path {
+	fill: #1565D8;
+}
+
+.btn-secondary, .btn-secondary:focus, .btn-secondary.focus {
+	background-color: #FFFFFF;
+	color: #1565D8;
+	border-color:#1565D8;
+}
+
+.btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active {
+	background-color: #1565D8;
+	color: #ffffff;
+	border-color: #1565D8;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+	box-shadow: none;
+}
+
+.btn-secondary svg path, .btn-secondary:focus svg path, 
+.btn-secondary:not(:disabled):not(.disabled):active svg path  {
+	fill: #1565D8;
+}
+
+.btn-secondary:hover svg path, .btn-secondary:not(:disabled):not(.disabled):active svg path, .btn-secondary:not(:disabled):not(.disabled).active svg path {
+	fill: #ffffff;
+} 
+
+
+
+.commers {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+
+.commers .image a {
+	display: block;
+}
+
+.commers .image a .hide {
+	display: block;
+	margin: 0 auto;
+	/* width: 197px; */
+	/* height: 100px; */
+}
+
+.commers .image a .show {
+	display: none;
+}
+
+.commers .image {
+	text-align: center;
+	width: 197px;
+	position: relative;
+}
+
+.commers .image span {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+	color: #5A7184;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.commers-image {
+	margin: 0px 46px;
+}
+.image-text {
+	margin-top: 63px;
+}
+
+.image-text p {
+	margin-bottom: 20px;
+}
+
+.section-title {
+	margin-bottom: 45px;
+}
+
+.section-title span {
+	font-size: 20px;
+	line-height: 27px;
+	letter-spacing: 2px;
+	margin-bottom: 8px;
+	display: block;
+	color: #36B37E;;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+	font-size: 36px;
+	line-height: 56px;
+	letter-spacing: 0.2px;
+	color:#183B56;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+.heading-text {
+	margin-bottom: 45px;
+}
+
+.image-text.check-out {
+	margin-top: 40px;
+}
+
+.image-text.check-out .section-title {
+	margin-bottom: 18px;
+}
+
+.image-text.check-out p {
+	margin-bottom: 28px;
+}
+
+.lowest {
+	margin-top: 40px;
+}
+
+.lowest label.label {
+	margin-bottom: 26px;
+	background: rgb(54 179 126 / 10%);
+	border-radius: 2583.33px;
+	width: 206px;
+	-webkit-border-radius: 2583.33px;
+	-moz-border-radius: 2583.33px;
+	-ms-border-radius: 2583.33px;
+	-o-border-radius: 2583.33px;
+}
+
+.lowest label p {
+	font-size: 20px;
+	color: #36B37E;
+	line-height: 26px;
+	padding: 3px 63px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}	
+
+.lowest p {
+	margin-bottom: 50px;
+}
+
+.lowest .section-title {
+	margin-bottom: 22px;
+}
+
+p b {
+	color: #183B56;
+}
+
+.fees {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+	border-radius: 8px;
+	padding: 35px 40px 25px;
+	margin: 0px 73px;
+	border-top: 4px solid #3F598A;
+	position: relative;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.fees .other p {
+	margin-bottom: 16px;
+	text-align: left;
+}
+
+.fees .other {
+	margin-bottom: 20px;
+}
+
+.other p b {
+	margin-right: 20px;
+	font-size: 40px;
+	line-height: 47px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+.other p:nth-last-child(1) b {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.fees p {
+	margin-bottom: 30px;
+}
+
+.purchase {
+	border-top: 1px solid #E5EAF4;;
+	padding-top: 28px;
+	text-align: left;
+	margin-bottom: 55px;
+}
+
+.purchase p {
+	margin-bottom: 30px;
+}
+
+.purchase ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.check li {
+	font-size: 20px;
+	margin-bottom: 25px;
+	line-height: 20px;
+	color: #183B56;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.check li img {
+	margin-right: 12px;
+}
+
+.get-payment {
+	margin-top: 64px;
+	background-color: #1565D8;
+	padding: 64px 36px 44px;
+}
+
+.get-payment .section-title h1, .get-payment .section-title h2, .get-payment .section-title h3, 
+.get-payment .section-title h4, .get-payment .section-title h5, .get-payment .section-title h6 {
+	color: #ffffff;
+}
+
+.get-payment .section-title {
+	margin-bottom: 28px;
+}
+
+.get-payment p {
+	color: rgb(250 250 251 / 60%);
+	margin-bottom: 44px;
+	padding: 0px 20px;
+}
+
+.get-payment .pay-button {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.get-payment .btn {
+	width: 200px;
+}
+
+.pay-button .btn-primary {
+	background-color: #ffffff;
+	color: #1565D8;
+	margin-right: 12px;
+	border-radius: 2000px;
+	-webkit-border-radius: 2000px;
+	-moz-border-radius: 2000px;
+	-ms-border-radius: 2000px;
+	-o-border-radius: 2000px;
+}
+.pay-button .btn-primary:hover, .pay-button .btn-primary:not(:disabled):not(.disabled):active, 
+.pay-button .btn-primary:not(:disabled):not(.disabled).active {
+	background-color: #1565D8;
+	color:#ffffff;
+	border-color: #ffffff;
+}
+
+.pay-button .btn-primary svg path, .pay-link .btn-secondary:focus svg path {
+	fill:#1565D8;
+}
+
+.pay-button .btn-primary:hover svg path, 
+.pay-button .btn-primary:not(:disabled):not(.disabled):active svg path, 
+.pay-button .btn-primary:not(:disabled):not(.disabled).active svg path {
+	fill: #ffffff;
+}
+
+.get-payment .btn {
+	font-size: 16px;
+	line-height: 22px;
+	margin-right: 0px;
+}
+
+.pay-link .btn-secondary {
+	background-color: unset;
+	border: none;
+	color: #ffffff;
+	border-radius: 2000px;
+}
+
+.pay-link .btn-secondary {
+	appearance: unset;
+	-webkit-appearance: unset;
+}
+
+.pay-link .btn-secondary:hover, .pay-link .btn-secondary:not(:disabled):not(.disabled):active, 
+.pay-link .btn-secondary:not(:disabled):not(.disabled).active {
+	background-color: #ffffff;
+	color: #1565D8;
+}
+
+.pay-link .btn-secondary svg path, .pay-link .btn-secondary:focus svg path {
+	fill: #ffffff;
+}
+
+.pay-link .btn-secondary:hover svg path, .pay-link .btn-secondary:not(:disabled):not(.disabled):active svg path, 
+.pay-link .btn-secondary:not(:disabled):not(.disabled).active svg path {
+	fill: #1565D8;
+}
+
+.pay-link .btn-secondary svg {
+	margin-left: 60px;
+}
+
+.footer {
+	margin-top: 45px;
+	margin-bottom: 57px;
+}
+
+.footer .logo {
+	margin-bottom: 27px;
+}
+
+.footer p {
+	margin-bottom: 45px;
+}
+
+.footer ul {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.footer ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.footer ul li a {
+	width: 52px;
+	height: 50px;
+	line-height: 18px;
+	padding: 15px 16px;
+	background: rgb(90 113 132 / 10%);
+	border-radius: 2000px;
+	display: inline-block;
+	-webkit-border-radius: 2000px;
+	-moz-border-radius: 2000px;
+	-ms-border-radius: 2000px;
+	-o-border-radius: 2000px;
+}
+
+.footer ul li:nth-child(1) {
+	margin-left: 0px;
+}
+
+.footer ul li a:hover {
+	background: #1565D8;
+}
+
+.footer ul li a:hover svg path {
+	fill: #ffffff;
+}
+
+
+/*==================================================================*/
+/*========== New Class Add End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== Footer Start ==========*/
+/*==================================================================*/
+
+/*==================================================================*/
+/*========== Footer End ==========*/
+/*==================================================================*/

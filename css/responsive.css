@@ -1,0 +1,248 @@
+/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
+
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/ 
+
+
+
+@media (min-width: 1201px) {
+    .container{
+        max-width: 690px;
+        padding: 0px 0px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 320px;
+        padding: 0px 0px;
+    }
+
+    .wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 26px;
+    }
+
+    .payment {
+        padding: 0px 24px;
+    }
+
+    .payment .title h1, .payment .title h2, .payment .title h3, .payment .title h4, .payment .title h5, .payment .title h6 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .payment .title {
+        margin-top: 24px;
+        margin-bottom: 26px;
+    }
+
+    .payment p {
+        margin-bottom: 36px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .btn-primary {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .commers {
+        margin-top: 34px;
+        margin-bottom: 30px;
+        /* padding: 0px 24px; */
+    }
+
+    .commers .image span {
+        font-size: 9px;
+        line-height: 13px;
+        position: unset;
+    }
+
+    .commers-image {
+        margin: 0px 0px;
+    }
+
+    .commers .image a .hide {
+        display: none;
+    }
+
+    .commers .image {
+        width: 99px;
+    }
+    
+    .commers .image a .show {
+        display: block;
+        
+        margin: 0 auto;
+    }
+
+    .image-text {
+        margin-top: 48px;
+    } 
+
+    .section-title span {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-title {
+        margin-bottom: 16px;
+        padding: 0px 24px;
+    } 
+
+    .image-text p {
+        padding: 0px 24px;
+        margin-bottom: 45px;
+    }
+
+    .image-text.check-out {
+        margin-top: 54px;
+    }
+
+    .fees {
+        padding: 30px 20px;
+        margin: 0px 16px;
+    }
+
+    .fees .other p {
+        margin-bottom: 10px;
+    }
+
+    .lowest label.label {
+        width: 115px;
+        margin-bottom: 18px;
+    }
+
+    .lowest .section-title {
+        margin-bottom: 28px;
+    }
+
+    .lowest label p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 2px 41px;
+    }
+
+    .lowest p {
+        padding: 0px 24px;
+        /* margin-bottom: 50px; */
+    }
+
+    .other p b {
+        margin-right: 9px;
+    }
+
+    .other p {
+        line-height: 21px; 
+    }
+
+    .other p:nth-last-child(1) b {
+        font-size: 20px;
+    }
+
+    .fees .other {
+        margin-bottom: 8px;
+    }
+
+    .fees p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 11px;
+        padding: 0;
+    }
+
+    .purchase p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .purchase {
+        padding-top: 21px;
+        margin-bottom: 40px;
+    }
+
+    .check ul {
+        padding-left: 0px;
+    }
+
+    .check li img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .check li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .get-payment {
+        margin-top: 45px;
+        padding: 64px 24px;
+    }
+
+    .get-payment .section-title {
+        padding: 0px;
+        margin-bottom: 16px;
+    }
+
+    .get-payment p {
+        margin-bottom: 76px;
+        padding: 0px 0px;
+    }
+
+    .pay-button .btn-primary {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        margin-top: 49px;
+        padding: 0px 24px;
+        margin-bottom: 68px;
+    } 
+
+    .footer .logo {
+        margin-bottom: 35px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .footer ul li {
+        margin-left: 8px;
+    }
+
+    .footer ul li a {
+        width: 42px;
+        height: 40px;
+        padding: 10px 12px;
+    }
+} 
+
+/*---------- Large Desktop , Large Screen End ----------*/
